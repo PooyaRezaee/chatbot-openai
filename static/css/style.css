@@ -1,0 +1,5 @@
+.pattern-zigzog{
+    background-color: #e5e5f7;
+    opacity: 0.05;
+    background: linear-gradient(135deg, #31313255 25%, transparent 25%) -28px 0/ 56px 56px, linear-gradient(225deg, #313132 25%, transparent 25%) -28px 0/ 56px 56px, linear-gradient(315deg, #31313255 25%, transparent 25%) 0px 0/ 56px 56px, linear-gradient(45deg, #313132 25%, #e5e5f7 25%) 0px 0/ 56px 56px;
+}
