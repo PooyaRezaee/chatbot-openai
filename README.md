@@ -5,19 +5,15 @@
 
 
 ### Run
-- Install Python Packages
-    ```
-    pip install -r requirements.txt
-    ```
-
 - Set vatible in .env.example and rename it to .env
 
-- Run flask app
+- Install docker and build Dockerfile
     ```
-        flask run
+	docker build -t chatbot-flask .
     ```
 
-
-
-
+- Run Image
+    ```
+	docker run chatbot-flask
+    ```
 
